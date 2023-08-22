@@ -3,5 +3,6 @@ export interface IUser{
 }
 
 export interface AuthSchema {
-    user: null| IUser
+    user: null| IUser,
+    error?: string
 }

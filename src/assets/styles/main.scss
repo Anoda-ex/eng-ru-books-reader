@@ -1,0 +1,39 @@
+.form-block{
+    text-align: left;
+}
+.mt-40{
+    margin-top: 40px;
+}
+
+.form-error{
+    padding-left: var(--form-left-padding);
+    color: var(--color-text-error);
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+}
+.form-error img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    position: relative;
+}
+.form-input-wrapper{
+    position: relative;
+}
+.form-input-icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top:55%;
+    transform: translateY(-50%);
+    right: 20px;
+    cursor: pointer;
+}
+.form-block+.form-block{
+    margin-top: 20px;
+}
+.form-left-padding{
+    padding-left: var(--form-left-padding);
+}

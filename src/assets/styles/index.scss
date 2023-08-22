@@ -1,4 +1,7 @@
+@import url(./reset.scss);
+@import url(./tailwind.css);
 @import url(./variables.scss);
+@import url(./main.scss);
 @import url(./themes/light.scss);
 @import url(./themes/dark.scss);
 @import url(./themes/book.scss);
@@ -6,4 +9,7 @@
 *{
     margin: 0;
     padding: 0;
+}
+*{
+    box-sizing: border-box;
 }

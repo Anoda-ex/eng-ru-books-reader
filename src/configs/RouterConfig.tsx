@@ -1,5 +1,5 @@
 import { Homepage } from './../pages/Homepage';
-import { Auth } from './../pages/Auth';
+import { Auth } from './../pages/Auth/Auth';
 import { NotFoundPage } from './../pages/NotFoundPage';
 import { RouteProps } from 'react-router-dom';
 

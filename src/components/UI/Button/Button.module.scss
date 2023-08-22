@@ -1,0 +1,29 @@
+.button{
+    border: 0px;
+    height: 40px;
+    border-radius: var(--button-border-radius);
+    -webkit-font-smoothing: antialiased;
+    padding: 0px 18px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.primary{
+    color: var(--button-primary-color);
+    background-color: var(--button-primary-background-color);
+}
+
+.outline, .withIcon {
+    border: var(--border-style-input);
+    color: var(--primary-color);
+    border-radius: var(--button-border-radius);
+    background: none;
+}
+.withIcon svg{
+    height: 50%;
+    margin-right: 10px;
+}
